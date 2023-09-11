@@ -53,3 +53,6 @@ class BST:
         res = []
         self.root.node_inorder_traversal(self.root, res)
         return res
+
+    def __repr__(self) -> str:
+        return str(self.inorder_traversal())
