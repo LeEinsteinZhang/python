@@ -4,7 +4,7 @@ class Node:
         self.prev = None
         self.next = None
     
-class Dlst:
+class Dll:
     def __init__(self) -> None:
         self.front = None
         self.back = None
